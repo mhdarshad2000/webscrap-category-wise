@@ -1,0 +1,102 @@
+[
+    {
+        "subCategory": "BRAND",
+        "brands": [
+            {
+                "brandName": "Blackberry",
+                "subUrl": "https://www.service-center-locator.com/blackberry/blackberry-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Huawei",
+                "subUrl": "https://www.service-center-locator.com/huawei/huawei-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "HTC",
+                "subUrl": "https://www.service-center-locator.com/htc-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "iPhone",
+                "subUrl": "https://www.service-center-locator.com/iphone/iphone-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Lg",
+                "subUrl": "https://www.service-center-locator.com/lg/lg-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Motorola",
+                "subUrl": "https://www.service-center-locator.com/motorola/motorola-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Nec",
+                "subUrl": "https://www.service-center-locator.com/nec/nec-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Nokia",
+                "subUrl": "https://www.service-center-locator.com/nokia/nokia-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Oki Phone",
+                "subUrl": "https://www.service-center-locator.com/oki-phone/oki-phone-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Samsung",
+                "subUrl": "https://www.service-center-locator.com/samsung/samsung-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Siemens",
+                "subUrl": "https://www.service-center-locator.com/siemens/siemens-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Sony Phones",
+                "subUrl": "https://www.service-center-locator.com/sony-phones/sony-phones-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "T-Mobile",
+                "subUrl": "https://www.service-center-locator.com/t-mobile/t-mobile-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Toshiba",
+                "subUrl": "https://www.service-center-locator.com/toshiba/toshiba-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "U.S. Cellular",
+                "subUrl": "https://www.service-center-locator.com/uscellular/uscellular-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Vtech",
+                "subUrl": "https://www.service-center-locator.com/vtech/vtech-service-center.htm",
+                "states": {}
+            }
+        ]
+    },
+    {
+        "subCategory": "SERVICE",
+        "brands": [
+            {
+                "brandName": "AT&T",
+                "subUrl": "https://www.service-center-locator.com/att/att-service-center.htm",
+                "states": {}
+            },
+            {
+                "brandName": "Sprint",
+                "subUrl": "https://www.service-center-locator.com/sprint/sprint-service-center.htm",
+                "states": {}
+            }
+        ]
+    }
+]

@@ -22,19 +22,22 @@ async function scrap() {
 
                     let text = $(subCategory).parent().next()
                     let count = 0
+                    let promises = []
                     while (text.text() !== "") {
                         data[i]['brands'][count] = {}
                         data[i]['brands'][count]['brandName'] = text.text()
                         const subUrl = text.attr("href")
                         data[i]['brands'][count]['subUrl'] = subUrl
-                        const states = await secondPage(subUrl, text.text())
-                        data[i]['brands'][count]["states"] = states
+                        promises.push(data[i]['brands'][count]["states"] = await secondPage(subUrl, text.text()))
                         text = $(text).next()
                         count++
                     }
                     // End of the logic subCategory
                     // This code is taking long time as usual
-                    resolve()
+
+                    await Promise.all(promises).then(() => {
+                        resolve()
+                    })
                 })
             })
 
