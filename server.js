@@ -40,6 +40,7 @@ async function scrap() {
 
 
         })
+        .catch((err) => { })
 
     const brands = JSON.stringify(data)
     fs.writeFileSync("./brands.json", brands)
@@ -90,9 +91,11 @@ async function thirdPage(cityUrl, brand) {
                         arr[i] = {}
                         const cityName = $(fireStone).text()
                         arr[i]["serviceCenterName"] = cityName
-                        arr[i]["address1"]= $(fireStone).parent().text().replace(cityName,"").replaceAll("\t","").replaceAll("\n",",")
+                        arr[i]["address1"] = $(fireStone).parent().text().replace(cityName, "").replaceAll("\t", "").replaceAll("\n", ",")
                     })
+
                 }
+
 
                 else {
                     $(postDiv).find(" div > div > h3:not(.fumna),div > div > div > strong,div > h3:not(.fumna), h4 ,td > strong,div > strong,p > span:not(.nomenegozio) > strong, div > div > div > h3,div > dl > dt, div > div > div > strong,tr > td:first() > h3").each((i, city) => {
@@ -109,7 +112,6 @@ async function thirdPage(cityUrl, brand) {
                             })
 
                         }
-
                         else if (brand === "Mazda") {
                             arr[i]["address1"] = $(city).parent().text().replace(cityName, "").replaceAll("\t", "").replaceAll("\n", "  ,")
                         }
