@@ -4,7 +4,7 @@
     "request-promise": "^4.2.6"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node carsNmotors.js"
   },
   "name": "category-wise-webscrap",
   "version": "1.0.0",

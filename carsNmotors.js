@@ -43,7 +43,7 @@ async function scrap() {
         .catch((err) => { })
 
     const brands = JSON.stringify(data)
-    fs.writeFileSync("./brands.json", brands)
+    fs.writeFileSync("./carsNmotors.json", brands)
 }
 
 scrap()
